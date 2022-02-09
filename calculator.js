@@ -15,4 +15,4 @@ function multiply(a, b) {
 }
 
 // The following is required to make unit tests work. Please ignore it.
-module.exports = { sum, subtract, divide, multiply };
+export { sum, subtract, divide, multiply };
